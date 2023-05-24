@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stock Auction - Bid on Stock</title>
+	<link rel="stylesheet" href="bid2.css">
+  </head>
+  <body>
+    <div>
+      <header class="header">
+          <ul class="tab">
+              <li><a href="bid1.html"><img src="css/home.png" width="30" height="30" alt=""> Home</a></li>
+              
+              <li><a href="bid.html" class="hend"><img src="css/login.png" alt="" width="25" height="25"> Log In / Register </a></li>
+          </ul>
+      </header>
+    
+	</div>
+  
+	<div class="background">
+	<div class="container">
+		<h2>Bid on Stock</h2>
+          <p>Current Highest Bid: $<span id="current-bid-${code}"></span></p>
+		<label for="new-bid-${code}">Enter New Bid:</label>
+		<input type="number" id="new-bid-${code}" min="0">
+		<button class="button button1">Bid</button>
+    <div class="countdown">You have  to bid. </div>
+	</div>
+	</div>
+
+	<script scr="script.js"></script>
+	
+	
+	
+
+  </body>
+</html>
